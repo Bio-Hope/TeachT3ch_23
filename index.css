@@ -1,27 +1,23 @@
 body {
-  color: lightsteelblue;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(128, 151, 208),
-    darkslategrey
-  );
+  color: lemonchiffon;
+  background-image: linear-gradient(to bottom, rgb(128, 151, 208), grey);
 }
 a {
   outline: none;
   text-decoration: none;
 }
 a:link {
-  color: lightgreen;
+  color: rgb(73, 108, 173);
 }
 a:visited {
-  color: mediumseagreen;
+  color: rgb(255, 248, 118);
 }
 .barra {
   display: inline-flex;
   justify-content: flex-start;
   flex-direction: row;
-  background-color: rgba(255, 255, 255, 0.125);
-  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.339);
+  border-radius: 30px;
   padding: 10px;
   gap: 5px;
 }
@@ -39,13 +35,15 @@ a:visited {
 header {
   font-family: "Yeseva One", "serif";
   font-size: 20px;
-  color: peru;
+  color: darkslateblue;
   display: flex;
   border-style: double;
+  padding: 1px;
+  margin: 15px;
   border-width: 8px;
   border-radius: 5px;
-  border-color: cadetblue;
-  margin: 15px;
+  border-color: bisque;
+  background-color: powderblue;
   justify-content: center;
 }
 main {
@@ -56,9 +54,13 @@ main {
 article {
   padding: 15px;
 }
-article h2 {
+article > h2 {
   color: cornsilk;
 }
+h3 {
+  color: darkslateblue;
+}
+
 .mis_tareas > ul {
   list-style: square;
 }
@@ -77,12 +79,31 @@ article h2 {
   border-radius: 100%;
 }
 
+section {
+  padding: 15px;
+}
+section form.task {
+  display: flex;
+  font-family: inherit;
+  align-items: center;
+  gap: 5px;
+}
+#nom {
+  border: 2px solid black;
+  background-color: lemonchiffon;
+  border-radius: 5px;
+  padding: 10px;
+  align-self: center;
+  color: black;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
 }
 .pie.dos {
-  background-image: linear-gradient(to left, black, grey);
+  background-image: linear-gradient(to left, black, rgb(183, 35, 107));
   padding: 10px;
   border-radius: 100%;
+  font-family: "Yeseva", "serif";
 }

@@ -24,7 +24,7 @@
   <body>
     <nav class="barra">
       <div><a class="apartado dos" href="sobre_mi.html">Sobre mí</a></div>
-      <div><a class="apartado tres" href="cactus.html">Cactus</a></div>
+      <div><a class="apartado tres" href="">Cactus</a></div>
     </nav>
     <!-- La dejo aquí porque en algún momento investigaré cómo hacer lo que quiero
       <img
@@ -72,13 +72,14 @@
           />
         </div>
       </article>
-      <h3>Interactuando con el usuario</h3>
+
       <section>
+        <h3>Interactuando con el usuario</h3>
         <p>
           Hay muchos tipos de formularios y todos son divertidos de probar, pero
           lo dejaré en esto por ahora:
         </p>
-        <form>
+        <form class="task">
           <label for="nom">Tarea</label>
           <input
             id="nom"
@@ -91,22 +92,30 @@
           </div>
         </form>
         <br />
-        <aside class="add_tarea">
+        <aside class="add_task">
           <form>
             <p>¿Has completado alguna tarea hoy?</p>
 
             <label for="pregunta1">Sí</label>
-            <input id="pregunta1" type="checkbox" />
+            <input id="pregunta1" name="preg" type="radio" />
 
             <label for="pregunta2">No</label>
-            <input id="pregunta2" type="checkbox" />
+            <input id="pregunta2" name="preg" type="radio" />
           </form>
         </aside>
       </section>
     </main>
+
     <br />
+
     <footer>
       <div class="pie uno">¿Copyright? ¿Qué es eso?</div>
+      <div>
+        <button onclick="topFunction()" id="myBtn" title="Ir al principio">
+          Arriba
+        </button>
+        <!--Esto necesita Javascript, a ver si consigo que funcione cuando empecemos esas clases-->
+      </div>
       <div><a class="pie dos" href="/zen.html">:3</a></div>
     </footer>
   </body>
