@@ -1,0 +1,88 @@
+body {
+  color: lightsteelblue;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(128, 151, 208),
+    darkslategrey
+  );
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+a:link {
+  color: lightgreen;
+}
+a:visited {
+  color: mediumseagreen;
+}
+.barra {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.125);
+  border-radius: 20px;
+  padding: 10px;
+  gap: 5px;
+}
+.apartado {
+  background: rgba(40, 31, 31, 0.337);
+  border-radius: 20px;
+  width: 80px;
+  height: 40px;
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  font-family: "Yeseva One", "serif";
+  font-size: 20px;
+  color: peru;
+  display: flex;
+  border-style: double;
+  border-width: 8px;
+  border-radius: 5px;
+  border-color: cadetblue;
+  margin: 15px;
+  justify-content: center;
+}
+main {
+  font-family: "Ubuntu", "sans-serif";
+  padding: 10px;
+}
+
+article {
+  padding: 15px;
+}
+article h2 {
+  color: cornsilk;
+}
+.mis_tareas > ul {
+  list-style: square;
+}
+#finished {
+  color: crimson;
+}
+#muahaha strong {
+  color: rebeccapurple;
+}
+.thanks span {
+  background-color: rgba(167, 88, 164, 0.741);
+  padding: 10px;
+  border-radius: 80%;
+}
+.thanks img {
+  border-radius: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+.pie.dos {
+  background-image: linear-gradient(to left, black, grey);
+  padding: 10px;
+  border-radius: 100%;
+}

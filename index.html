@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>¿Y esto por qué no funciona? La historia de mi vida</title>
+
+    <link rel="stylesheet" href="/index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="barra">
+      <div><a class="apartado dos" href="sobre_mi.html">Sobre mí</a></div>
+      <div><a class="apartado tres" href="cactus.html">Cactus</a></div>
+    </nav>
+    <!-- La dejo aquí porque en algún momento investigaré cómo hacer lo que quiero
+      <img
+      class="apartado imagen"
+      src="/Images/Mood.jpg"
+      alt="Dibujo de una mujer frente a un portátil con cara de disgusto porque no funciona lo que está haciendo"
+      style="height: 50px; width: 50px;"
+    />-->
+
+    <header><h1>Mi Sala de Pruebas</h1></header>
+
+    <main>
+      <article class="tareas">
+        <h2>
+          El primer contacto con HTML:
+        </h2>
+
+        <h3>
+          Lista de tareas en
+          <a href="https://codesandbox.io/?from-app=1">
+            CodeSandbox
+          </a>
+        </h3>
+
+        <div class="mis_tareas">
+          <p>¿Qué tengo que hacer <strong>hoy</strong>?</p>
+
+          <ul>
+            <li>Aprender HTML.</li>
+            <li id="finished"><s>Cepillar a la gata.</s></li>
+            <li id="muahaha">
+              Conquistar el <strong><em>mundo</em></strong
+              >.
+            </li>
+            <!-- Easter egg = <img src="https://media.tenor.com/rZiYbuy-5oEAAAAC/muahaha-evil.gif" /> -->
+          </ul>
+        </div>
+
+        <div class="thanks">
+          <p>Una de estas cosas es <span> gracias a:</span></p>
+          <img
+            src="https://pbs.twimg.com/profile_images/1514989640591474692/MdRFqfJN_400x400.jpg"
+            alt="Logo de TeachTech"
+            style="width: 150px; height: 150px;"
+          />
+        </div>
+      </article>
+      <h3>Interactuando con el usuario</h3>
+      <section>
+        <p>
+          Hay muchos tipos de formularios y todos son divertidos de probar, pero
+          lo dejaré en esto por ahora:
+        </p>
+        <form>
+          <label for="nom">Tarea</label>
+          <input
+            id="nom"
+            type="text"
+            name="nom"
+            placeholder="Añade una tarea"
+          />
+          <div>
+            <button>Agregar</button>
+          </div>
+        </form>
+        <br />
+        <aside class="add_tarea">
+          <form>
+            <p>¿Has completado alguna tarea hoy?</p>
+
+            <label for="pregunta1">Sí</label>
+            <input id="pregunta1" type="checkbox" />
+
+            <label for="pregunta2">No</label>
+            <input id="pregunta2" type="checkbox" />
+          </form>
+        </aside>
+      </section>
+    </main>
+    <br />
+    <footer>
+      <div class="pie uno">¿Copyright? ¿Qué es eso?</div>
+      <div><a class="pie dos" href="/zen.html">:3</a></div>
+    </footer>
+  </body>
+</html>
